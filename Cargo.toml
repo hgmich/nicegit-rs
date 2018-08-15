@@ -1,7 +1,17 @@
 [package]
 name = "nicegit"
 version = "0.0.1"
-authors = ["Michael Holmes <michael.holmes@protonmail.ch>"]
+authors = ["Alex Crichton <alex@alexcrichton.com>", "Michael Holmes <i.am@ceph3.us>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["git"]
+repository = "https://github.com/ceph3us/nicegit-rs"
+homepage = "https://github.com/ceph3us/nicegit-rs"
+documentation = "https://docs.rs/nicegit"
+description = """
+A collection of common higher-level abstractions over git2.
+"""
+categories = ["api-bindings"]
 
 [dependencies]
 git2 = "0.7"
